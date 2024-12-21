@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "torgflow"
+version = "0.1.0"
+description = "Учет торговли и склада онлайн"
+authors = ["r1fox404 <r.ikt@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+sqlalchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
